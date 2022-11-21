@@ -1,7 +1,22 @@
 *   {
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body    {
-    background-color: green;
+    background-color: #222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+
+}
+
+.grid-box   {
+    background-color: rgb(101, 101, 235);
+    border: 3px solid rgb(33, 33, 240);
+    padding: 2rem;
+    /* los rem significcan multiplican la cantidad de pixeles defaut que viene la font que es de 16px, en la pagina de escritoriose ven genia l los PX, pero cuando lo utlices en el celular se usan REM */
 }
